@@ -1,0 +1,32 @@
+
+# Site settings
+title: "CYBER//RESUME"
+email: contact.me
+description: > 
+  Cyberpunk-themed professional resume
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Personal info
+name: "TESTING 123..."
+tagline: "Senior Network Engineer | Cloud Specialist | Cybersecurity Enthusiast"
+location: "Las Vegas, NV"
+phone: "+1 (555) 123-4567"
+website: "fastfabric.github.io"
+linkedin: "linkedin.com/in/netrunners"
+github: "github.com/fastfabric"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cyber-grid"></div>
+  <div class="scanline"></div>
+  
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="cyber-footer">
+    <p>System Status: <span class="status-online">ONLINE</span> | Last Updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
+  </footer>
+</body>
+</html>
