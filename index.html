@@ -14,11 +14,11 @@ title: Resume
     <div class="contact-grid">
       <div class="contact-item">
         <span class="icon">📍</span>
-        <span>{{ site.location }}</span>
+        <a href="https://{{site.location}}" target="_blank">Las Vegas, NV</a>
       </div>
       <div class="contact-item">
         <span class="icon">📧</span>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="mailto:{{ site.email }}" target="_blank">E-Mail</a>
       </div>
       <div class="contact-item">
         <span class="icon">📱</span>
@@ -31,6 +31,14 @@ title: Resume
       <div class="contact-item">
         <span class="icon">💻</span>
         <a href="https://{{ site.github }}" target="_blank">GitHub</a>
+      </div>
+      <div class="contact-item">
+        <span class="icon">🧾</span>
+        <a href="https://{{ site.credly }}" target="_blank">Credly</a>
+      </div>
+      <div class="contact-item">
+        <span class="icon">🏴‍☠️</span>
+        <a href="https://{{ site.tryhackme }}" target="_blank">TryHackMe</a>
       </div>
     </div>
   </header>
@@ -103,7 +111,21 @@ title: Resume
             <span class="skill-tag">Kubernetes</span>
           </div>
         </div>
-        
+
+        <div class="skill-category">
+          <h4>Security</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Cortex</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h4>Networking</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Cisco</span>
+          </div>
+        </div>
+
         <div class="skill-category">
           <h4>Cloud Platforms</h4>
           <div class="skill-tags">
