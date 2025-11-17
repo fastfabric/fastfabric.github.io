@@ -1,20 +1,22 @@
 
 # Site settings
 title: "CYBER//RESUME"
-email: contact.me
+email: iwork@netrunners.io
 description: > 
   Cyberpunk-themed professional resume
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Personal info
-name: "TESTING 123..."
+name: "ANTHONY GREVICH"
 tagline: "Senior Network Engineer | Cloud Specialist | Cybersecurity Enthusiast"
-location: "Las Vegas, NV"
-phone: "+1 (555) 123-4567"
+location: "maps.app.goo.gl/XupTmAWTv1jW6Wk19"
+phone: "+1(702)530-1883"
 website: "fastfabric.github.io"
 linkedin: "linkedin.com/in/netrunners"
 github: "github.com/fastfabric"
+credly: www.credly.com/users/netrunners/badges
+tryhackme: "tryhackme.com/p/plink0"
 
 # Build settings
 markdown: kramdown
