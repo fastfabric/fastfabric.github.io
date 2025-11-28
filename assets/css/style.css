@@ -195,6 +195,11 @@ body {
   font-weight: 500;
 }
 
+.note {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--electric-cyan);
+}
+
 /* Contact Grid */
 .contact-grid {
   display: grid;
